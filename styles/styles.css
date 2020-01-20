@@ -1,10 +1,33 @@
 p {
-  color: red;
+  color: orange;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.chart {
+  font: 10px sans-serif;
+}
+
+.box {
+  width: 300px;
+  border: 5px solid steelblue;
+  padding: 5px;
+  margin: auto;
+
 }
 
 
-body {
-  font: 10px sans-serif;
+#company {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 #apple-stock-chart .axis path,
@@ -15,12 +38,12 @@ body {
 }
 
 #apple-stock-chart .x.axis path {
-  display: none;
+  /*display: none;*/
 }
 
 #apple-stock-chart .line {
   fill: none;
-  stroke: orange;
+  stroke: steelblue;
   stroke-width: 1px;
 }
 
